@@ -1,0 +1,1 @@
+gsutil -m cp -r gs://$SOURCE_BACKUP_BUCKET/* gs://$DESTINATION_BACKUP_BUCKET/$(date -d "today" +"%Y%m%d%H%M")
